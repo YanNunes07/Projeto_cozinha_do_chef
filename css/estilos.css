@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+.topo{
+  background-color:   rgb(255, 255, 255);
+    width: 100%;
+    height: 15%;
+}
+
+.conteudo{
+    background-image: url(../imagens/logocont.jpg);
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+section{
+   
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: rgb(255, 172, 46);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+.rodape{
+
+    background-color: rgb(134, 77, 2);
+    width: 100%;
+    height: 20%;
+    float: left;
+
+}
+
+/*  formatação do topo*/
+
+.titulo{
+float: left;
+padding-left: 20%;
+padding-top: 2%;
+}
+
+.logo{
+    float: left;
+    padding-left: 10%;
+}
+
+/* formatação de menu*/
+
+#menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: rgb(105, 190, 7);
+    color: rgb(10, 0, 0);
+    text-decoration: none;/*estou removendo o sublinhado*/
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a:hover{
+  background-color:wheat ;
+  color: #6d6d6d;
+  border-bottom: 3px solid #EA0;
+}
+
+
+.imagen{
+    width: 100%;
+    height: 20%;
+    float: right;
+}
+
+.contexto{
+    float: left;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.paragrafo{
+    float: left;
+    padding-left: 35%;
+}
+
+.final{
+    float: left;
+    padding-left: 5%;
+}
+
+.receitas{
+  background-color: rgb(255, 172, 46);
+   width: 98%;
+   height: 8%;
+ 
+}
